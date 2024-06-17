@@ -1,0 +1,9 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int a = 1;
+    int b = 2;
+    cout<<a<<endl;
+    cout<<b<<endl;   // here a  an d b is a variable.
+    return 0;
+}
