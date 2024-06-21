@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int reverse(int x){
-    int ans = 0; 
+    int ans = 0 , rem = 0; 
     bool isnegative = false;        // check therange is it out of range or in.
     if(x <= INT8_MIN){                 // INT_MIN is a function to use in negative range.
         return 0;
