@@ -4,7 +4,7 @@ using namespace std;
 int find_unique(vector<int>arr){
         int ans = 0;            // at starting point is 0  because koi effect nhi pdh rha if 0 is doing xor in any number its gives no effect.
         for(int i =0; i<arr.size();i++){
-           ans = arr ^ arr[i];
+           ans = ans ^ arr[i];
         }
         return ans;
 }
